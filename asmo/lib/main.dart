@@ -14,6 +14,6 @@ class asos extends StatefulWidget {
 class _asosState extends State<asos> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("data"),),);
+    return Scaffold(body: Container(width: double.infinity,height: 400,color: Colors.red,),);
   }
 }
