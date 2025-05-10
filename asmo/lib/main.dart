@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(MaterialApp(home: asos(),));
+void main() {
+  runApp(MaterialApp(home: asos()));
 }
 
 class asos extends StatefulWidget {
@@ -14,6 +14,10 @@ class asos extends StatefulWidget {
 class _asosState extends State<asos> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Container(width: double.infinity,height: 400,color: Colors.red,),);
+    return Scaffold(backgroundColor: Colors.red,
+      body: Container(
+        child: Image.asset("rasm/BMW.jpg"),
+      ),
+    );
   }
 }
